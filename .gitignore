@@ -1,3 +1,5 @@
+.DS_Store
+
 */config/development
 */logs/log-*.php
 !*/logs/index.html
@@ -15,3 +17,17 @@ application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
 /vendor/
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+composer.lock
