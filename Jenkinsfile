@@ -11,6 +11,6 @@ node {
     stage("phpunit") {
         // Run PHPUnit
         sh 'cd application/tests/'
-        sh 'vendor/bin/phpunit'
+        sh 'vendor/bin/phpunit -v ./'
     }
 }
